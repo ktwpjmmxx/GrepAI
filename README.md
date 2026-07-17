@@ -15,7 +15,7 @@
 | 02 | [アプリケーション導入時の実践ライブラリ](./docs/02_libraries_and_tools/README.md) | OpenAI API、LangChain、LlamaIndexの比較と実装 | ✅ 完了 |
 | 03 | [設計思想・先進的なアーキテクチャ](./docs/03_design_patterns/README.md) | プロンプトエンジニアリング、RAG、エージェント型AI | ✅ 完了 |
 | 04 | [AI利用時の注意点とリスク管理](./docs/04_precautions_and_security/README.md) | ハルシネーション対策、プロンプトインジェクション、プライバシー | ✅ 完了 |
-| 05 | [評価・モニタリング](./docs/05_evaluation_and_monitoring/README.md) | RAG評価指標（Precision@k/Recall@k/RAGAS）と実践例 | ✅ 完了 |
+| 05 | [評価・モニタリング](./docs/05_evaluation_and_monitoring/README.md) | RAG評価指標（Precision@k/Recall@k/RAGAS）とAI-Recipe-Bookでの実践例 | ✅ 完了 |
 | 06 | ファインチューニング実践 | LoRA/PEFTを用いたモデルのカスタマイズ | 🔜 予定 |
 | 07 | MLOps / LLMOps | モデルのデプロイ・運用・継続的改善 | 🔜 予定 |
 
@@ -43,7 +43,10 @@ generative-ai-handbook/
 │   ├── 04_precautions_and_security/
 │   │   ├── README.md
 │   │   └── assets/
-│   └── 05_.../                        # 新規チャプターはこの命名規則で追加
+│   ├── 05_evaluation_and_monitoring/
+│   │   ├── README.md
+│   │   └── assets/
+│   └── 06_.../                        # 新規チャプターはこの命名規則で追加
 └── assets/                            # リポジトリ全体で共有する画像・バナー
 ```
 
@@ -67,7 +70,7 @@ generative-ai-handbook/
 
 ## 🔗 関連リポジトリ
 
-- 実装ポートフォリオ: [AI-Recipe-Book](https://github.com/ktwpjmmxx/AI-Recipe-Book) — RAG評価の実践例（本リポジトリ06章）はこちらで実装
+- 実装ポートフォリオ: [AI-Recipe-Book](https://github.com/ktwpjmmxx/AI-Recipe-Book) — RAGを用いたレシピ管理アプリ。05章で扱うRAG評価指標は、本アプリの`search-assist`機能で実測した内容を実例として掲載
 
 ---
 
