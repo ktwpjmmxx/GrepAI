@@ -15,8 +15,8 @@
 | 02 | [アプリケーション導入時の実践ライブラリ](./docs/02_libraries_and_tools/README.md) | OpenAI API、LangChain、LlamaIndexの比較と実装 | ✅ 完了 |
 | 03 | [設計思想・先進的なアーキテクチャ](./docs/03_design_patterns/README.md) | プロンプトエンジニアリング、RAG、エージェント型AI | ✅ 完了 |
 | 04 | [AI利用時の注意点とリスク管理](./docs/04_precautions_and_security/README.md) | ハルシネーション対策、プロンプトインジェクション、プライバシー | ✅ 完了 |
-| 05 | ファインチューニング実践 | LoRA/PEFTを用いたモデルのカスタマイズ | 🔜 予定 |
-| 06 | 評価・モニタリング | LLMアプリケーションの評価指標とロギング設計 | 🔜 予定 |
+| 05 | [評価・モニタリング](./docs/05_evaluation_and_monitoring/README.md) | RAG評価指標（Precision@k/Recall@k/RAGAS）と実践例 | ✅ 完了 |
+| 06 | ファインチューニング実践 | LoRA/PEFTを用いたモデルのカスタマイズ | 🔜 予定 |
 | 07 | MLOps / LLMOps | モデルのデプロイ・運用・継続的改善 | 🔜 予定 |
 
 > ✅ 完了　🚧 作成中　🔜 予定
@@ -67,7 +67,7 @@ generative-ai-handbook/
 
 ## 🔗 関連リポジトリ
 
-- 実装ポートフォリオ: [AI-Recipe-Book](https://github.com/) ※実際のURLに置き換えてください
+- 実装ポートフォリオ: [AI-Recipe-Book](https://github.com/ktwpjmmxx/AI-Recipe-Book) — RAG評価の実践例（本リポジトリ06章）はこちらで実装
 
 ---
 
