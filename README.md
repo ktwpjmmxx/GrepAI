@@ -11,15 +11,14 @@
 
 | No. | チャプター | 概要 | ステータス |
 |---|---|---|---|
-| 01 | [AI・LLMの基礎知識](./docs/01_fundamentals/README.md) | Transformer、トークン、コンテキストウィンドウ、主要モデル比較 | ✅ 完了 |
-| 02 | [アプリケーション導入時の実践ライブラリ](./docs/02_libraries_and_tools/README.md) | OpenAI API、LangChain、LlamaIndexの比較と実装 | ✅ 完了 |
-| 03 | [設計思想・先進的なアーキテクチャ](./docs/03_design_patterns/README.md) | プロンプトエンジニアリング、RAG、エージェント型AI | ✅ 完了 |
-| 04 | [AI利用時の注意点とリスク管理](./docs/04_precautions_and_security/README.md) | ハルシネーション対策、プロンプトインジェクション、プライバシー | ✅ 完了 |
-| 05 | [評価・モニタリング](./docs/05_evaluation_and_monitoring/README.md) | RAG評価指標（Precision@k/Recall@k/RAGAS）とAI-Recipe-Bookでの実践例 | ✅ 完了 |
-| 06 | ファインチューニング実践 | LoRA/PEFTを用いたモデルのカスタマイズ | 🔜 予定 |
-| 07 | [MLOps / LLMOps](./docs/07_mlops_llmops/README.md) | 実験管理（MLflow）、デプロイ・運用・継続的改善 | 🚧 作成中（実験管理パートのみ執筆済み） |
-
-凡例：✅ 完了　🚧 作成中　🔜 予定
+| 01 | [AI・LLMの基礎知識](./docs/01_fundamentals/README.md) | Transformer、トークン、コンテキストウィンドウ、主要モデル比較 | 完了 |
+| 02 | [アプリケーション導入時の実践ライブラリ](./docs/02_libraries_and_tools/README.md) | OpenAI API、LangChain、LlamaIndexの比較と実装 | 完了 |
+| 03 | [設計思想・先進的なアーキテクチャ](./docs/03_design_patterns/README.md) | プロンプトエンジニアリング、RAG、エージェント型AI | 完了 |
+| 04 | [AI利用時の注意点とリスク管理](./docs/04_precautions_and_security/README.md) | ハルシネーション対策、プロンプトインジェクション、プライバシー | 完了 |
+| 05 | [評価・モニタリング](./docs/05_evaluation_and_monitoring/README.md) | RAG評価指標（Precision@k/Recall@k/RAGAS）とAI-Recipe-Bookでの実践例 | 完了 |
+| 06 | ファインチューニング実践 | LoRA/PEFTを用いたモデルのカスタマイズ | 予定 |
+| 07 | [MLOps / LLMOps](./docs/07_mlops_llmops/README.md) | 実験管理（MLflow）、デプロイ・運用・継続的改善 | 作成中（実験管理パートのみ執筆済み） |
+| 08 | [LLM-as-a-judgeによる出力品質評価](./docs/08_llm_as_judge_evaluation/README.md) | プロンプト設計の定量比較、評価軸・バイアス排除の設計、AI-Recipe-Bookでの実践例 | 完了 |
 
 新しいチャプターを追加する際は、この表に行を追加し、`docs/` 配下に同名フォルダを作成してください（詳細は下記「リポジトリ構成」を参照）。
 
@@ -49,6 +48,9 @@ generative-ai-handbook/
 │   ├── 07_mlops_llmops/
 │   │   ├── README.md
 │   │   └── assets/
+│   ├── 08_llm_as_judge_evaluation/
+│   │   ├── README.md
+│   │   └── assets/
 │   └── 0X_.../                        # 新規チャプターはこの命名規則で追加
 └── assets/                            # リポジトリ全体で共有する画像・バナー
 ```
@@ -73,7 +75,7 @@ generative-ai-handbook/
 
 ## 関連リポジトリ
 
-- 実装ポートフォリオ：[AI-Recipe-Book](https://github.com/ktwpjmmxx/AI-Recipe-Book) — RAGを用いたレシピ管理アプリ。05章で扱うRAG評価指標は、本アプリの`search-assist`機能で実測した内容を実例として掲載
+- 実装ポートフォリオ：[AI-Recipe-Book](https://github.com/ktwpjmmxx/AI-Recipe-Book) — RAGを用いたレシピ管理アプリ。05章で扱うRAG評価指標、08章で扱うLLM-as-a-judgeによるプロンプト比較実験は、いずれも本アプリの`search-assist`機能を対象に実測した内容を実例として掲載
 - 実装ポートフォリオ：[mlflow-experiment-tracking](https://github.com/ktwpjmmxx/mlflow-experiment-tracking) — Fashion-MNIST分類を題材にした実験管理の実践プロジェクト。07章の内容と対応
 
 ---
